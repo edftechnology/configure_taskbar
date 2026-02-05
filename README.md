@@ -106,8 +106,8 @@ Para configurar/instalar/usar o `taskbar` no `Linux Ubuntu` sem precisar digitar
     <p>Fig. 1. Panel Preferences</p>
 </div>
 
-**ATENÇÃO**: Perceber que, existe um arquivo dentro de `docs/backup_<MM-DD-YYYY_HH-MM-SS>` que pode ser
-carregado e ajustar automaticamente o `Panel Preferences`.
+**ATENÇÃO**: Perceber que, existe um arquivo dentro de `docs/backup_and_restore_<MM_DD_YYYY_HH_MM_SS>` que pode ser
+carregado e ajustar automaticamente o `Panel Preferences`. Escolher o mais recente, de preferência.
 
 ### 2.2 Painel
 
@@ -122,6 +122,34 @@ carregado e ajustar automaticamente o `Panel Preferences`.
     <img src="docs/figures/fig3.png" alt="Minha Imagem" />
     <p>Fig. 3. Action button</p>
 </div>
+
+## 3. Workspace
+
+### 3.1 Properties
+
+1. No `Painel`, clicar com o botão direito do mouse em `Workspace` e clicar em `Properties`.
+
+2. Clicar em `Workspace Swicther`, em `Appearance`, alterar para `Buttons`.
+
+<div align="center">
+    <img src="docs/figures/fig4.png" alt="Minha Imagem" />
+    <p>Fig. 4. Workspace Switcher</p>
+</div>
+
+3. Clicar no botão `Close`.
+
+### 3.2 Workspace Settings..
+
+1. No `Painel`, clicar com o botão direito do mouse em `Workspace` e clicar em `Workspace Settings...`, em `Layout`, em `Number of workspaces:`, selecionar `4`.
+
+<div align="center">
+    <img src="docs/figures/fig5.png" alt="Minha Imagem" />
+    <p>Fig. 5. Workspaces </p>
+</div>
+
+2. Alterar o `Workspace Name` para números sequênciais.
+
+3. Clicar no botão `Close`.
 
 ## Referências
 
