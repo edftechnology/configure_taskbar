@@ -103,21 +103,24 @@ Para configurar/instalar/usar o `taskbar` no `Linux Ubuntu` sem precisar digitar
 
 <div align="center">
     <img src="docs/figures/fig1.png" alt="Minha Imagem" />
-    <p>Fig. 1.</p>
+    <p>Fig. 1. Panel Preferences</p>
 </div>
+
+**ATENÇÃO**: Perceber que, existe um arquivo dentro de `docs/backup_<MM-DD-YYYY_HH-MM-SS>` que pode ser
+carregado e ajustar automaticamente o `Panel Preferences`.
 
 ### 2.2 Painel
 
 <div align="center">
     <img src="docs/figures/fig2.png" alt="Minha Imagem" />
-    <p>Fig. 2.</p>
+    <p>Fig. 2. Painel</p>
 </div>
 
 ### 2.3 Action button
 
 <div align="center">
     <img src="docs/figures/fig3.png" alt="Minha Imagem" />
-    <p>Fig. 3.</p>
+    <p>Fig. 3. Action button</p>
 </div>
 
 ## Referências
