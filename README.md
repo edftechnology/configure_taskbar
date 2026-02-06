@@ -136,7 +136,7 @@ carregado e ajustar automaticamente o `Panel Preferences`. Escolher o mais recen
     <p>Fig. 4. Workspace Switcher</p>
 </div>
 
-3. Clicar no botão `Close`.
+3. Clicar no botão `Close` para salvar as alterações.
 
 ### 3.2 Workspace Settings..
 
@@ -149,7 +149,30 @@ carregado e ajustar automaticamente o `Panel Preferences`. Escolher o mais recen
 
 2. Alterar o `Workspace Name` para números sequênciais.
 
-3. Clicar no botão `Close`.
+3. Clicar no botão `Close` para salvar as alterações.
+
+## 4. Ativar `File System` e `Removable Devices` no `Desktop`
+
+1. Abrir o `whiskermenu`;
+
+<div align="center">
+    <img src="docs/figures/fig6.png" alt="Minha Imagem" />
+    <p>Fig. 6. Desktop </p>
+</div>
+
+2. Digitar `Desktop` e clicar na tecla `Enter`
+
+3. Clicar na aba `Icons`;
+
+4. Em `Default Icons`, localizar as opções:
+
+    - `File System`
+
+    - `Removable Devices`
+
+    - `Marcar os dois itens`;
+
+5. Clicar em `Close` para salvar as alterações.
 
 ## Referências
 
