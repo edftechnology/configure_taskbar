@@ -12,13 +12,20 @@ _In this document are contained the main commands and settings to set up/install
 
 ### `taskbar`
 
-A `"taskbar"` ou barra de tarefas, é uma componente crucial do ambiente de área de trabalho em sistemas operacionais como o Ubuntu e o Windows. Localizada geralmente na parte inferior da tela, ela proporciona acesso rápido a aplicativos em execução, bem como a janelas abertas, tornando a navegação e a multitarefa mais convenientes. Além disso, a `"taskbar"` exibe informações essenciais, como a hora e o status do sistema, e muitas vezes inclui um menu de aplicativos ou botão Iniciar para facilitar o lançamento de novos programas e acesso às configurações do sistema. Essa funcionalidade central na interface do usuário do sistema operacional ajuda os usuários a gerenciar eficazmente suas tarefas e a interagir com seus computadores de forma eficiente.
+A `"taskbar"` ou barra de tarefas, é uma componente crucial do ambiente de área de trabalho em 
+sistemas operacionais como o `Linux Ubuntu` e o `Windows`. Localizada geralmente na parte inferior 
+da tela, ela proporciona acesso rápido a aplicativos em execução, bem como a janelas abertas, 
+tornando a navegação e a multitarefa mais convenientes. Além disso, a `"taskbar"` exibe informações 
+essenciais, como a hora e o status do sistema, e muitas vezes inclui um _menu_ de aplicativos ou 
+botão Iniciar para facilitar o lançamento de novos programas e acesso às configurações do sistema. 
+Essa funcionalidade central na _interface_ do usuário do sistema operacional ajuda os usuários a 
+gerenciar eficazmente suas tarefas e a interagir com seus computadores de forma eficiente.
 
 ## 1. Como configurar/instalar/usar a `taskbar` no `Linux Ubuntu` [1][3]
 
 Para configurar/instalar/usar a `taskbar` no `Linux Ubuntu`, você pode seguir estes passos:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 
     ```bash
     Ctrl + Alt + T
@@ -84,7 +91,7 @@ Para configurar/instalar/usar a `taskbar` no `Linux Ubuntu`, você pode seguir e
 
 Para configurar/instalar/usar o `taskbar` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 
     ```bash
     Ctrl + Alt + T
@@ -92,7 +99,7 @@ Para configurar/instalar/usar o `taskbar` no `Linux Ubuntu` sem precisar digitar
 
 2. Digite o seguinte comando e pressione `Enter`:
 
-    ```
+    ```bash
     NÂO há.
     ```
 
@@ -100,6 +107,8 @@ Para configurar/instalar/usar o `taskbar` no `Linux Ubuntu` sem precisar digitar
 ## 2. Configuração e sequência de botões utilizados
 
 ### 2.1 Sequência para configuração do painel
+
+Abaixo, tem-se a representação ilustrativa:
 
 <div align="center">
     <img src="docs/figures/fig1.png" alt="Minha Imagem" />
@@ -111,21 +120,25 @@ carregado e ajustar automaticamente o `Panel Preferences`. Escolher o mais recen
 
 ### 2.2 Painel
 
+Abaixo, tem-se a representação ilustrativa:
+
 <div align="center">
     <img src="docs/figures/fig2.png" alt="Minha Imagem" />
     <p>Fig. 2. Painel</p>
 </div>
 
-### 2.3 Action button
+### 2.3 `Action button`
+
+Abaixo, tem-se a representação ilustrativa:
 
 <div align="center">
     <img src="docs/figures/fig3.png" alt="Minha Imagem" />
     <p>Fig. 3. Action button</p>
 </div>
 
-## 3. Workspace
+## 3. `Workspace`
 
-### 3.1 Properties
+### 3.1 `Properties`
 
 1. No `Painel`, clicar com o botão direito do mouse em `Workspace` e clicar em `Properties`.
 
@@ -138,7 +151,7 @@ carregado e ajustar automaticamente o `Panel Preferences`. Escolher o mais recen
 
 3. Clicar no botão `Close` para salvar as alterações.
 
-### 3.2 Workspace Settings..
+### 3.2 `Workspace Settings...`
 
 1. No `Painel`, clicar com o botão direito do mouse em `Workspace` e clicar em `Workspace Settings...`, em `Layout`, em `Number of workspaces:`, selecionar `4`.
 
@@ -176,11 +189,11 @@ carregado e ajustar automaticamente o `Panel Preferences`. Escolher o mais recen
 
 ## Referências
 
-[1] USER: FWEIGL. ***Desktop environment that stacks programs in the task bar.*** Disponível em: <https://unix.stackexchange.com/questions/224246/desktop-environment-that-stacks-programs-in-the-task-bar> (texto adaptado). StackExchange. Acessado em: 22/12/2023 11:35.
+[1] USER: FWEIGL. **Desktop environment that stacks programs in the task bar.** Disponível em: <https://unix.stackexchange.com/questions/224246/desktop-environment-that-stacks-programs-in-the-task-bar> (texto adaptado). StackExchange. Acessado em: 22/12/2023 11:35.
 
-[2] OPENAI. ***Vs code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). ChatGPT. Acessado em: 22/12/2023 11:36.
+[2] OPENAI. **Vs code: editor popular.** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). ChatGPT. Acessado em: 22/12/2023 11:36.
 
-[3] DK BOSE. ***How can i get icon only "grouped modern window list" on xubuntu, that I can "pin" in panel too?.*** Disponível em: <https://askubuntu.com/questions/1173886/how-can-i-get-icon-only-grouped-modern-window-list-on-xubuntu-that-i-can-pin> (texto adaptado). StackExchange. Acessado em: 22/12/2023 11:37.
+[3] DK BOSE. **How can i get icon only "grouped modern window list" on xubuntu, that I can "pin" in panel too?.** Disponível em: <https://askubuntu.com/questions/1173886/how-can-i-get-icon-only-grouped-modern-window-list-on-xubuntu-that-i-can-pin> (texto adaptado). StackExchange. Acessado em: 22/12/2023 11:37.
 
-[4] OPENAI. ***Ativar file system xfce.*** Disponível em: <https://chatgpt.com/c/6985de21-8690-8329-a06f-d7edff46d155> (texto adaptado). ChatGPT. Acessado em: 06/02/2026 09:38.
+[4] OPENAI. **Ativar file system xfce.** Disponível em: <https://chatgpt.com/c/6985de21-8690-8329-a06f-d7edff46d155> (texto adaptado). ChatGPT. Acessado em: 06/02/2026 09:38.
 
