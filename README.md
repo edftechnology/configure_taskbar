@@ -206,11 +206,15 @@ Para realizar o ajuste, siga os passos abaixo:
 
 2. Desativar o `Text to display`;
 
-3. Alterar `Network device` para `wlp2s0`;
+3. Em `Present data as`, selecionar `Bars`;
 
-4. Alterar o `Bar color (incoming)` para o azul em tom mais forte;
+4. Desativar o `Automatic maximum` e fixar `Maximum (incoming)` e `Maximum (outgoing)` em `1,00 KiB/s`;
 
-5. Alterar o `Bar color (outcoming)` para o vermelho em tom mais forte.
+5. Alterar `Network device` para a interface realmente ativa, como `wlp2s0`;
+
+6. Alterar o `Bar color (incoming)` para o azul em tom mais forte;
+
+7. Alterar o `Bar color (outgoing)` para o vermelho em tom mais forte.
 
 ## Referências
 
@@ -221,4 +225,3 @@ Para realizar o ajuste, siga os passos abaixo:
 [3] DK BOSE. **How can i get icon only "grouped modern window list" on xubuntu, that I can "pin" in panel too?.** Disponível em: <https://askubuntu.com/questions/1173886/how-can-i-get-icon-only-grouped-modern-window-list-on-xubuntu-that-i-can-pin> (texto adaptado). StackExchange. Acessado em: 22/12/2023 11:37.
 
 [4] OPENAI. **Ativar file system xfce.** Disponível em: <https://chatgpt.com/c/6985de21-8690-8329-a06f-d7edff46d155> (texto adaptado). ChatGPT. Acessado em: 06/02/2026 09:38.
-
