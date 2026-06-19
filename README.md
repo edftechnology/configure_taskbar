@@ -140,6 +140,8 @@ Abaixo, tem-se a representação ilustrativa:
 
 ### 3.1 `Properties`
 
+Para realizar o ajuste, siga os passos abaixo:
+
 1. No `Painel`, clicar com o botão direito do mouse em `Workspace` e clicar em `Properties`.
 
 2. Clicar em `Workspace Swicther`, em `Appearance`, alterar para `Buttons`.
@@ -153,6 +155,8 @@ Abaixo, tem-se a representação ilustrativa:
 
 ### 3.2 `Workspace Settings...`
 
+Para realizar o ajuste, siga os passos abaixo:
+
 1. No `Painel`, clicar com o botão direito do mouse em `Workspace` e clicar em `Workspace Settings...`, em `Layout`, em `Number of workspaces:`, selecionar `4`.
 
 <div align="center">
@@ -165,6 +169,8 @@ Abaixo, tem-se a representação ilustrativa:
 3. Clicar no botão `Close` para salvar as alterações.
 
 ## 4. Ativar `File System` e `Removable Devices` no `Desktop`
+
+Para realizar o ajuste, siga os passos abaixo:
 
 1. Abrir o `whiskermenu`;
 
@@ -186,6 +192,25 @@ Abaixo, tem-se a representação ilustrativa:
     - `Marcar os dois itens`;
 
 5. Clicar em `Close` para salvar as alterações.
+
+## 5. `Network monitor`
+
+Para realizar o ajuste, siga os passos abaixo:
+
+1. Abrir o `Network monitor`;
+
+<div align="center">
+    <img src="docs/figures/fig7.png" alt="Minha Imagem" />
+    <p>Fig. 6. Desktop </p>
+</div>
+
+2. Desativar o `Text to display`;
+
+3. Alterar `Network device` para `wlp2s0`;
+
+4. Alterar o `Bar color (incoming)` para o azul em tom mais forte;
+
+5. Alterar o `Bar color (outcoming)` para o vermelho em tom mais forte.
 
 ## Referências
 
