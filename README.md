@@ -1,0 +1,227 @@
+# Como configurar/instalar/usar a `taskbar` no `Linux Ubuntu`
+
+## Resumo
+
+Neste documento estão contidos os principais comandos e configurações para configurar/instalar/usar a `taskbar` no `Linux Ubuntu`.
+
+## _Abstract_
+
+_In this document are contained the main commands and settings to set up/install the `taskbar` on `Linux Ubuntu`._
+
+## Descrição [2]
+
+### `taskbar`
+
+A `"taskbar"` ou barra de tarefas, é uma componente crucial do ambiente de área de trabalho em 
+sistemas operacionais como o `Linux Ubuntu` e o `Windows`. Localizada geralmente na parte inferior 
+da tela, ela proporciona acesso rápido a aplicativos em execução, bem como a janelas abertas, 
+tornando a navegação e a multitarefa mais convenientes. Além disso, a `"taskbar"` exibe informações 
+essenciais, como a hora e o status do sistema, e muitas vezes inclui um _menu_ de aplicativos ou 
+botão Iniciar para facilitar o lançamento de novos programas e acesso às configurações do sistema. 
+Essa funcionalidade central na _interface_ do usuário do sistema operacional ajuda os usuários a 
+gerenciar eficazmente suas tarefas e a interagir com seus computadores de forma eficiente.
+
+## 1. Como configurar/instalar/usar a `taskbar` no `Linux Ubuntu` [1][3]
+
+Para configurar/instalar/usar a `taskbar` no `Linux Ubuntu`, você pode seguir estes passos:
+
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```    
+
+2. Certifique-se de que seu sistema esteja limpo e atualizado.
+
+    2.1 Limpar o `cache` do gerenciador de pacotes `apt`. Especificamente, ele remove todos os arquivos de pacotes (`.deb`) baixados pelo `apt` e armazenados em `/var/cache/apt/archives/`. Digite o seguinte comando:
+    ```bash
+    sudo apt clean
+    ```
+
+    2.2 Remover pacotes `.deb` antigos ou duplicados do `cache` local. É útil para liberar espaço, pois remove apenas os pacotes que não podem mais ser baixados (ou seja, versões antigas de pacotes que foram atualizados). Digite o seguinte comando:
+    ```bash
+    sudo apt autoclean
+    ```
+
+    2.3 Remover pacotes que foram automaticamente instalados para satisfazer as dependências de outros pacotes e que não são mais necessários. Digite o seguinte comando:
+    ```bash
+    sudo apt autoremove -y
+    ```
+
+    2.4 Buscar as atualizações disponíveis para os pacotes que estão instalados em seu sistema. Digite o seguinte comando e pressione `Enter`:
+    ```bash
+    sudo apt update
+    ```
+
+    2.5 **Corrigir pacotes quebrados**: Isso atualizará a lista de pacotes disponíveis e tentará corrigir pacotes quebrados ou com dependências ausentes:
+    ```bash
+    sudo apt --fix-broken install
+    ```
+
+    2.6 Limpar o `cache` do gerenciador de pacotes `apt` novamente:
+    ```bash
+    sudo apt clean
+    ```
+
+    2.7 Para ver a lista de pacotes a serem atualizados, digite o seguinte comando e pressione `Enter`:
+    ```bash
+    sudo apt list --upgradable
+    ```
+
+    2.8 Realmente atualizar os pacotes instalados para as suas versões mais recentes, com base na última vez que você executou `sudo apt update`. Digite o seguinte comando e pressione `Enter`:
+    ```bash
+    sudo apt full-upgrade -y
+    ```
+
+3. Abrir o `whiskermenu`;
+
+4. Digitar `Panel` e clicar na tecla `Enter`
+
+5. Clicar na aba `Items`;
+
+6. Selecionar a opção `Windows Buttons`;
+
+7. Clicar em `Edite the currente selected item`;
+
+8. Em `Appearance`, remover o `check` do `Show button labels`; [3]
+
+9. Em `Behaviour`, no campo `Window grouping`, selecione a opção ` Always`. [2]
+
+### 1.1 Código completo para configurar/instalar/usar
+
+Para configurar/instalar/usar o `taskbar` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
+
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
+
+2. Digite o seguinte comando e pressione `Enter`:
+
+    ```bash
+    NÂO há.
+    ```
+
+
+## 2. Configuração e sequência de botões utilizados
+
+### 2.1 Sequência para configuração do painel
+
+Abaixo, tem-se a representação ilustrativa:
+
+<div align="center">
+    <img src="docs/figures/fig1.png" alt="Minha Imagem" />
+    <p>Fig. 1. Panel Preferences</p>
+</div>
+
+**ATENÇÃO**: Perceber que, existe um arquivo dentro de `docs/backup_and_restore_<MM_DD_YYYY_HH_MM_SS>` que pode ser
+carregado e ajustar automaticamente o `Panel Preferences`. Escolher o mais recente, de preferência.
+
+### 2.2 Painel
+
+Abaixo, tem-se a representação ilustrativa:
+
+<div align="center">
+    <img src="docs/figures/fig2.png" alt="Minha Imagem" />
+    <p>Fig. 2. Painel</p>
+</div>
+
+### 2.3 `Action button`
+
+Abaixo, tem-se a representação ilustrativa:
+
+<div align="center">
+    <img src="docs/figures/fig3.png" alt="Minha Imagem" />
+    <p>Fig. 3. Action button</p>
+</div>
+
+## 3. `Workspace`
+
+### 3.1 `Properties`
+
+Para realizar o ajuste, siga os passos abaixo:
+
+1. No `Painel`, clicar com o botão direito do mouse em `Workspace` e clicar em `Properties`.
+
+2. Clicar em `Workspace Swicther`, em `Appearance`, alterar para `Buttons`.
+
+<div align="center">
+    <img src="docs/figures/fig4.png" alt="Minha Imagem" />
+    <p>Fig. 4. Workspace Switcher</p>
+</div>
+
+3. Clicar no botão `Close` para salvar as alterações.
+
+### 3.2 `Workspace Settings...`
+
+Para realizar o ajuste, siga os passos abaixo:
+
+1. No `Painel`, clicar com o botão direito do mouse em `Workspace` e clicar em `Workspace Settings...`, em `Layout`, em `Number of workspaces:`, selecionar `4`.
+
+<div align="center">
+    <img src="docs/figures/fig5.png" alt="Minha Imagem" />
+    <p>Fig. 5. Workspaces </p>
+</div>
+
+2. Alterar o `Workspace Name` para números sequênciais.
+
+3. Clicar no botão `Close` para salvar as alterações.
+
+## 4. Ativar `File System` e `Removable Devices` no `Desktop`
+
+Para realizar o ajuste, siga os passos abaixo:
+
+1. Abrir o `whiskermenu`;
+
+<div align="center">
+    <img src="docs/figures/fig6.png" alt="Minha Imagem" />
+    <p>Fig. 6. Desktop </p>
+</div>
+
+2. Digitar `Desktop` e clicar na tecla `Enter`
+
+3. Clicar na aba `Icons`;
+
+4. Em `Default Icons`, localizar as opções:
+
+    - `File System`
+
+    - `Removable Devices`
+
+    - `Marcar os dois itens`;
+
+5. Clicar em `Close` para salvar as alterações.
+
+## 5. `Network monitor`
+
+Para realizar o ajuste, siga os passos abaixo:
+
+1. Abrir o `Network monitor`;
+
+<div align="center">
+    <img src="docs/figures/fig7.png" alt="Minha Imagem" />
+    <p>Fig. 6. Desktop </p>
+</div>
+
+2. Desativar o `Text to display`;
+
+3. Em `Present data as`, selecionar `Bars`;
+
+4. Desativar o `Automatic maximum` e fixar `Maximum (incoming)` e `Maximum (outgoing)` em `1,00 KiB/s`;
+
+5. Alterar `Network device` para a interface realmente ativa, como `wlp2s0`;
+
+6. Alterar o `Bar color (incoming)` para o azul em tom mais forte;
+
+7. Alterar o `Bar color (outgoing)` para o vermelho em tom mais forte.
+
+## Referências
+
+[1] USER: FWEIGL. **Desktop environment that stacks programs in the task bar.** Disponível em: <https://unix.stackexchange.com/questions/224246/desktop-environment-that-stacks-programs-in-the-task-bar> (texto adaptado). StackExchange. Acessado em: 22/12/2023 11:35.
+
+[2] OPENAI. **Vs code: editor popular.** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). ChatGPT. Acessado em: 22/12/2023 11:36.
+
+[3] DK BOSE. **How can i get icon only "grouped modern window list" on xubuntu, that I can "pin" in panel too?.** Disponível em: <https://askubuntu.com/questions/1173886/how-can-i-get-icon-only-grouped-modern-window-list-on-xubuntu-that-i-can-pin> (texto adaptado). StackExchange. Acessado em: 22/12/2023 11:37.
+
+[4] OPENAI. **Ativar file system xfce.** Disponível em: <https://chatgpt.com/c/6985de21-8690-8329-a06f-d7edff46d155> (texto adaptado). ChatGPT. Acessado em: 06/02/2026 09:38.
